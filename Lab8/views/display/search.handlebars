@@ -1,0 +1,17 @@
+<main>
+  <h1>
+    Shows found
+  </h1>
+  <br>
+  <h2>
+    {{searchParam.name}}
+  </h2>
+  <ul>
+    {{#each result}}
+    <li>
+      <a href="/shows/{{this.id}}">{{this.name}}</a>
+    </li>
+    {{/each}}
+  </ul>
+  <a href="/">Make another search</a>
+</main>

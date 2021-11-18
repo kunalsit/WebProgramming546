@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="/public/css/site.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src = "/public/js/Dom.js"> </script>
+  <title>Show Finder</title>
+</head>
+
+<body>
+  <main>
+    <header>
+    <h1>Show Finder</h1></header>
+    <p>
+      This App allows you to find information regarding show by their name or id
+    </p>
+
+  <form action = "#" id = "searchForm">    <label for="search_term">
+        <input type="text" name="name" id="search_term" placeholder="Show Name">
+      </label>
+      <input id = 'subForm' type="submit" value="Search Shows"></form>
+<div>
+    <ul id="showList" hidden></ul>
+    <div id = "show" >
+    </div>
+    <dl id = "dlList"></dl></div>
+    <a href="/"  id = "homeLink" hidden>Make another search</a>
+
+  </main>
+  <footer>
+    <p>Kunal Goyal</p>
+    <p>10471054</p>
+  </footer>
+</body>
+
+</html>

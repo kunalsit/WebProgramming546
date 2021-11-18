@@ -1,0 +1,14 @@
+{
+  "name": "cs-546-lab-3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Kunal Goyal 10471054",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^0.20.0"
+  }
+}
